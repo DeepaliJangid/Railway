@@ -6,11 +6,17 @@ import { AppComponent } from './app.component';
 import { HttpClientModule} from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ToastrModule } from 'ngx-toastr';
+import { SearchComponent } from './Components/search/search.component';
+import { HomeComponent } from './Components/home/home.component';
+import { BookingsComponent } from './Components/bookings/bookings.component';
 // import { MaterialModule } from '@angular/material';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SearchComponent,
+    HomeComponent,
+    BookingsComponent,
   ],
   imports: [
     BrowserModule,
